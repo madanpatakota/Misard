@@ -15,8 +15,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './shared/components/header/header.component'
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { DashboardComponent } from './shared/components/dashboard/dashboard.component'
-import { Swiper,SwiperOptions } from 'swiper';
-import {  NgxUsefulSwiperModule } from 'ngx-useful-swiper'
+//import { Swiper,SwiperOptions } from 'swiper';
+//import {  NgxUsefulSwiperModule } from 'ngx-useful-swiper'
 
 @NgModule({
   declarations: [

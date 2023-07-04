@@ -8,6 +8,8 @@
 (function() {
   "use strict";
 
+  console.log("Fired in Main js file");
+
   /**
    * Easy selector helper function
    */
@@ -89,6 +91,8 @@
   /**
    * Testimonials slider
    */
+  var element = document.getElementsByClassName('testimonials-slider');
+  console.log("element is " , element);
   new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
