@@ -9,6 +9,7 @@ import { TrainersComponent } from './trainers/trainers.component';
 import { EventsComponent } from './events/events.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { CourseDetailsComponent } from './course-details/course-details.component';
 
 const routes: Routes = [
   {
@@ -17,39 +18,42 @@ const routes: Routes = [
     children: [
       {
         path: RouteConstants.dashboard,
-        component: DashboardComponent
+        component: DashboardComponent,
       },
       {
-        path:'about',
-        component:AboutComponent
+        path: 'about',
+        component: AboutComponent,
       },
       {
-        path:'courses',
-        component:CoursesComponent
+        path: 'courses',
+        component: CoursesComponent,
       },
       {
-        path:'trainers',
-        component:TrainersComponent
+        path: 'courses/coursedetails',
+        component: CourseDetailsComponent,
       },
       {
-        path:'events',
-        component:EventsComponent
+        path: 'trainers',
+        component: TrainersComponent,
       },
       {
-        path:'pricing',
-        component:PricingComponent
+        path: 'events',
+        component: EventsComponent,
       },
       {
-        path:'contactus',
-        component:ContactusComponent
+        path: 'pricing',
+        component: PricingComponent,
       },
+      {
+        path: 'contactus',
+        component: ContactusComponent,
+      },
+
       // {
       //   path: '',
       //   redirectTo: RouteConstants.dashboard
       // },
-      {  path: '**',
-        redirectTo: RouteConstants.dashboard
-      },
+      { path: '**', redirectTo: RouteConstants.dashboard },
     ],
   },
 ];
