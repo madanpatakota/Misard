@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/2346b302-8476-43c4-b96a-4a60b3b35e27/resourceGroups/Misard-ResourceGroup/providers/Microsoft.Web/sites/misard",
+  "appService.deploySubpath": "dist\\misard"
+}
